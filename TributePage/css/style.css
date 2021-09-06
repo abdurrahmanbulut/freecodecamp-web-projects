@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body #main{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color:#EEEEEE;
+    text-align: center;
+}
+body #main div h1{
+    padding: 1rem;
+}
+body #main div p{
+    padding: 1rem;
+}
+figure{
+    border-radius: 1rem;
+    background-color: #fff;
+}
+figure .img-div{
+    display: flex;
+    justify-content: center;
+}
+figure #img-caption{
+    padding: 1rem;
+}
+section{
+    width: 40%;
+    margin-left: 33%;
+}
+section h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+section ol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+section ol li{
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+section #note{
+    margin-top: 2rem;
+    text-align: justify;
+    font-style:oblique;
+}
+section #note-author{
+    margin-top: 2rem;
+    text-align: justify;
+}
+
+footer div{
+    margin-top: 3rem;
+    font-size:x-large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
