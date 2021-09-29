@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/form.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.back-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+.center{
+    text-align: center;
+    color:bisque;
+}
+#title{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+#description{
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.form{
+    margin-top: 4rem;
+    width: 50%;
+    height: fit-content;
+    padding: 4rem;
+    background-color: rgb(39, 39, 69, 0.5);
+    border-radius: 0.5rem;
+    
+}
+label{
+    color: white;
+    font-size: larger;
+}
+.left{
+    text-align: left;
+}
+.form .text{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.italic{
+    font-style: italic;
+    font-size: small;
+}
+#role{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+#recommend{
+    font-size: large;
+}
+#feature{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+#text-area{
+    width: 100%;
+    height: 8rem;
+    margin-top: 1rem;
+    font-size: larger;
+    border-radius: 0.3rem;
+}
+button{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 2rem;
+    background-color: rgb(55, 175, 101);
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+input{
+    border-radius: 0.3rem;
+}
