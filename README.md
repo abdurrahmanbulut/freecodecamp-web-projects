@@ -1,2 +1,3 @@
 # web_projects_freeCodeCamp
- Responsive Web Design Projects from freeCodeCamps
+
+5 projects from freeCodeCamp Responsive Web Design course. 
